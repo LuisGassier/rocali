@@ -1,0 +1,41 @@
+{
+    "name": "abremex-api",
+    "version": "1.0.0",
+    "description": "ABREMEX API Server",
+    "main": "server.js",
+    "scripts": {
+        "dev": "cross-env set NODE_ENV=development && nodemon server.js",
+        "prod": "set NODE_ENV=production && node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PedroFariasSosa/Back-end-Abremex.git"
+    },
+    "keywords": [
+        "api",
+        "abremex",
+        "nodeJS",
+        "express",
+        "mongo"
+    ],
+    "author": "CHL2310",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/PedroFariasSosa/Back-end-Abremex/issues"
+    },
+    "homepage": "https://github.com/PedroFariasSosa/Back-end-Abremex#readme",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "cross-env": "^7.0.3",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "jshint": "^2.12.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.11.18",
+        "swagger-ui-express": "^4.1.6"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
